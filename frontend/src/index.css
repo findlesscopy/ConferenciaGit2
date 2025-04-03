@@ -1,0 +1,46 @@
+@import "tailwindcss"; 
+
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.floating-button button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+/* En tu archivo CSS, por ejemplo styles.css */
+.background {
+  background-image: url('assets/BackgroundOrange.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.bk-lightblue4{
+  background-image: url('assets/bk-lightblue4.png'); 
+  background-position: center;
+  min-height: 90vh;
+  background-size: cover;
+}
+
+.bk-lightblue1{
+  background-image: url('assets/bk-lightblue1.png'); 
+  background-position: center;
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+}
